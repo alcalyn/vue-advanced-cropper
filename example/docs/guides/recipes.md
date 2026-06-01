@@ -6,7 +6,7 @@ title: Recipes
 
 ## Changing a stencil
 
-There are only two default stencil components now, `RectangleStencil` (default) and `CircleStencil`, but you can easily create your own stencil himself.
+There are only three default stencil components now, `RectangleStencil` (default), `CircleStencil` and `HexagonStencil`, but you can easily create your own stencil himself.
 
 To specify stencil component you should pass it to `stencilComponent` prop. For globally registered component just pass their name:
 ```html
@@ -62,7 +62,7 @@ For example, that's how you can set aspect ratio:
 />
 ```
 
-The list of available props varies from one stencil component to another. The props of default stencils are available at this site ([RectangleStencil](/components/rectangle-stencil.html), [CircleStencil](/components/circle-stencil.html))
+The list of available props varies from one stencil component to another. The props of default stencils are available at this site ([RectangleStencil](/components/rectangle-stencil.html), [CircleStencil](/components/circle-stencil.html), [HexagonStencil](/components/hexagon-stencil.html))
 
 ## Setting the aspect ratio
 

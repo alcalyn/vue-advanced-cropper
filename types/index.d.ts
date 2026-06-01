@@ -175,6 +175,8 @@ export declare class RectangleStencil extends Vue {}
 
 export declare class CircleStencil extends Vue {}
 
+export declare class HexagonStencil extends Vue {}
+
 export declare class SimpleHandler extends Vue {}
 
 export declare class SimpleLine extends Vue {}

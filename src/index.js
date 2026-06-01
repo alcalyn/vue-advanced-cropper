@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Cropper from './Cropper.vue';
 
-import { RectangleStencil, CircleStencil } from './components/stencils';
+import { RectangleStencil, CircleStencil, HexagonStencil } from './components/stencils';
 
 import { SimpleHandler } from './components/handlers';
 
@@ -19,7 +19,7 @@ export {
 	BackgroundWrapper,
 } from './components/service';
 
-export { RectangleStencil, CircleStencil } from './components/stencils';
+export { RectangleStencil, CircleStencil, HexagonStencil } from './components/stencils';
 
 export { SimpleHandler } from './components/handlers';
 
@@ -34,5 +34,6 @@ export { default as Cropper } from './Cropper.vue';
 Vue.component('cropper', Cropper);
 Vue.component('rectangle-stencil', RectangleStencil);
 Vue.component('circle-stencil', CircleStencil);
+Vue.component('hexagon-stencil', HexagonStencil);
 Vue.component('simple-handler', SimpleHandler);
 Vue.component('simple-line', SimpleLine);

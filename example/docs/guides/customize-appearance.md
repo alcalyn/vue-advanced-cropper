@@ -50,7 +50,7 @@ To bypass this limitation you can:
 
 ## Stencil
 
-There may be numerous different stencils with different ways to customize them. But there will be described customizing of default stencils like ([RectangleStencil](/components/rectangle-stencil.html) and [CircleStencil](/components/circle-stencil.html))
+There may be numerous different stencils with different ways to customize them. But there will be described customizing of default stencils like ([RectangleStencil](/components/rectangle-stencil.html), [CircleStencil](/components/circle-stencil.html) and [HexagonStencil](/components/hexagon-stencil.html))
 
 ![Internal structure](../.vuepress/assets/tutorials/stencil-structure.svg)
 

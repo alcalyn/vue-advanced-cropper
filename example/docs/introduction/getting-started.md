@@ -107,7 +107,7 @@ The links for the previous Vue version is slightly different:
 <link rel="stylesheet" href="https://unpkg.com/vue-advanced-cropper@^1.0.0/dist/style.css" />
 ```
 
-You can use globally registered components: `cropper`, `circle-stencil`, `rectangle-stencil`, `simple-handler`, `simple-line`.
+You can use globally registered components: `cropper`, `circle-stencil`, `rectangle-stencil`, `hexagon-stencil`, `simple-handler`, `simple-line`.
 
 <iframe src="https://codesandbox.io/embed/vue-advanced-cropper-cdn-vue-2-0-yfzqbt?fontsize=14&hidenavigation=1&theme=dark"
 style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"

@@ -15,7 +15,11 @@
 			<div class="navigation__sections">
 				<a class="navigation__link navigation__link--active" href="/#"> Home </a>
 				<a class="navigation__link" href="/vue-advanced-cropper/introduction/getting-started.html"> Docs </a>
-				<a class="navigation__link" href="http://github.com/advanced-cropper/vue-advanced-cropper/" target="_blank">
+				<a
+					class="navigation__link"
+					href="http://github.com/advanced-cropper/vue-advanced-cropper/"
+					target="_blank"
+				>
 					Github
 				</a>
 			</div>
@@ -277,6 +281,13 @@
 					<div class="col">
 						<ExampleWrapper>
 							<CommonExample />
+						</ExampleWrapper>
+					</div>
+				</div>
+				<div class="row row--mt">
+					<div class="col">
+						<ExampleWrapper>
+							<HexagonExample />
 						</ExampleWrapper>
 					</div>
 				</div>
@@ -570,6 +581,9 @@
 		display: flex;
 		text-align: left;
 		flex-wrap: wrap;
+		&--mt {
+			margin-top: 50px;
+		}
 	}
 
 	.col {
@@ -838,6 +852,7 @@
 import { Cropper } from 'vue-advanced-cropper';
 import CircleExample from './Home/Examples/CircleExample/Example.vue';
 import CommonExample from './Home/Examples/CommonExample/Example.vue';
+import HexagonExample from './Home/Examples/HexagonExample/Example.vue';
 import ExampleWrapper from './Home/ExampleWrapper.vue';
 import HomeButton from './Home/HomeButton';
 
@@ -849,6 +864,7 @@ export default {
 		Cropper,
 		CommonExample,
 		CircleExample,
+		HexagonExample,
 	},
 	data() {
 		return {

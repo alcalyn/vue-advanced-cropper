@@ -6,9 +6,9 @@ title: Theming
 
 ## Basics
 
-Theme is the set of predefined styles for the following default components: `Cropper`, `CircleStencil`, `RectangleStencil`, `BoundingBox`, `SimpleHandler` and `SimpleLine`. 
+Theme is the set of predefined styles for the following default components: `Cropper`, `CircleStencil`, `RectangleStencil`, `HexagonStencil`, `BoundingBox`, `SimpleHandler` and `SimpleLine`. 
 
-They define global rules for such classes as `vue-advanced-cropper`, `vue-rectangle-stencil` and etc. 
+They define global rules for such classes as `vue-advanced-cropper`, `vue-rectangle-stencil`, `hexagon-stencil` and etc. 
 
 When you import the styles, you lo
 ad both service styles that required to correct displaying of components and the simplest default theme.
